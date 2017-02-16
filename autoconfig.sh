@@ -2,6 +2,7 @@
 #autoconfig.sh- tries to connect to a wifi network. if it can't,
 #makes its own AP.
 #requires hostapd and isc-dhcp-server to be installed
+#make sure you run it as root
 
 #makes sure nothing else messes with the network~
 echo "turning it off and back on..."

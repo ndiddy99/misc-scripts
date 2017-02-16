@@ -3,6 +3,7 @@
 #makes its own AP.
 #requires hostapd and isc-dhcp-server to be installed
 #make sure you run it as root
+#also make sure the interface is commented out in /etc/network/interfaces
 
 #makes sure nothing else messes with the network~
 echo "turning it off and back on..."

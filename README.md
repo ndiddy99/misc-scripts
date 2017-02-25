@@ -17,3 +17,4 @@ post-up /home/pi/autoconfig.sh
 
 change /etc/dhcp/dhcpd.conf to the one on git  
 change /etc/dhcp/dhclient.conf to the one on git 
+put wpa_supplicant.conf at /etc/wpa_supplicant.conf

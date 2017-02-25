@@ -11,9 +11,9 @@ put autoconfig.sh and hostapd.conf in home directory
 
 change /etc/network/interfaces to 
 
-auto wlan0 
-iface wlan0 inet manual 
-post-up /home/pi/autoconfig.sh 
+auto wlan0  
+iface wlan0 inet manual  
+post-up /home/pi/autoconfig.sh  
 
-change /etc/dhcp/dhcpd.conf to the one on git 
+change /etc/dhcp/dhcpd.conf to the one on git  
 change /etc/dhcp/dhclient.conf to the one on git 
